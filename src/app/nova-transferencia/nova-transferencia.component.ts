@@ -24,7 +24,6 @@ export class NovaTransferenciaComponent {
     const valorEmitir: Transferencia = { valor: this.valor, destino: this.destino};
 
     this.transferenciaService.adicionar(valorEmitir).subscribe((resultado) => {
-      console.log(resultado);
       this.router.navigateByUrl('extrato');
     },
     (error) => {
