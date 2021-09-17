@@ -10,6 +10,17 @@
   font-family: "Roboto", sans-serif;
 }
 
+// Reset CSS
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  color: inherit; // Cor que vem de herança
+}
+
 .container {
   max-width: 400px;
   padding: 30px;
